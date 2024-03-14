@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="excel_report_all" model="ir.actions.report">
+            <field name="name">Excel report</field>
+            <field name="model">account.move</field>
+            <field name="report_type">xlsx</field>
+            <field name="attachment_use">False</field>
+            <field name="binding_view_types"/>
+            <field name="report_name">excel_sale_product.excel_sale_report_product</field>
+            <field name="report_name">excel_sale_product.excel_sale_report_product</field>
+        </record>
+
+
+    </data>
+</odoo>
